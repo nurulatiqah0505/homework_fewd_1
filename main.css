@@ -1,0 +1,100 @@
+body{
+    margin:0;
+}
+
+.container{
+    width: 95%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 3%;
+    border-bottom: 5px solid yellow;
+}
+
+#wrapper{
+    background-color: lightgray;
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+    background-image: url("https://cdn9.dissolve.com/p/D1061_47_137/D1061_47_137_1200.jpg");
+    height: 500px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main .profile{
+    border: 0.3px solid gray;
+    background-color: white;
+    opacity: 0.9;
+    box-sizing: content-box;  
+    width: 350px;
+    height: 200px;
+    padding: 30px;  
+    border: 0.3px solid gray;
+    margin-right: 30px;
+}
+
+main .profile > button {
+    background-color: yellow;
+    padding: 15px 110px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 2px solid rgb(221, 185, 24);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* header */
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: black;
+}
+
+.header nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    color: white;
+}
+
+.header h1{
+    color: yellow;
+}
+
+.flex-container {
+    display: flex;
+    align-items:center;
+    
+}
+
+.flex-container .item{
+    border: 0.3px solid gray;
+    padding:50px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-container .h1{
+    align-items:center;
+}
+
+.flex-container .item > button {
+    background-color: gray;
+    border: 2px solid gray;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+
